@@ -152,7 +152,7 @@ color: teal;
 }
 
 .gallery-wrapper-styles {
-  margin: 0 auto;
+  margin: 0 auto 25px;
   max-width: 1200px;
   
   display: flex;
@@ -315,14 +315,30 @@ color: teal;
   }
 }
 
+.article-wrapper {
+  margin-left: 15px;
+  margin-bottom: 35px;
+}
+@media (max-width: 575px) {
+  .article-wrapper {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+}
+
 .article {
   margin-left: 5px;
   margin-right: 20px;  
 }
 
+.article-title {
+  text-align: center;
+}
+
 .article-paragraph {
   margin-top: 10px;
-  list-style: circle outside;
+  line-height: 1.3em;
+  list-style: circle outside;  
 }
 
 @media (max-width: 575px) {
