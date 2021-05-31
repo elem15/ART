@@ -291,6 +291,7 @@ color: teal;
 @media (max-width: 575px) {
   .gallery {
     margin-top: 20px;
+    justify-content: space-around;
   }
 }
 
@@ -298,6 +299,14 @@ color: teal;
   height: 150px;
   width: auto;
   margin: 20px 40px 10px 0;
+}
+
+@media (max-width: 575px) {
+  .preview {
+    height: 150px;
+    width: auto;
+    margin: 20px 10px 10px 10px;
+  }
 }
 
 .art-styles {
