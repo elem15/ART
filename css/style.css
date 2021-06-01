@@ -340,10 +340,25 @@ color: teal;
   margin-left: 5px;
   margin-right: 20px;  
 }
+@media (max-width: 575px) {
+  .article {
+    margin-left: 0;
+    margin-right: 0;  
+  }
+}
 
+.article h3 {
+  padding-top: 10px;
+  font-size: 1.5em;
+}
 .article-title {
   text-align: center;
 }
+
+.article ul {
+  padding-left: 20px;
+}
+
 
 .article-paragraph {
   margin-top: 10px;
