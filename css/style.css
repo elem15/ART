@@ -358,15 +358,17 @@ color: teal;
 .article ul {
   padding-left: 20px;
 }
-
-
 .article-paragraph {
   margin-top: 10px;
   line-height: 1.3em;
   list-style: circle outside; 
   font-size: 1.4em; 
 }
-
+@media (max-width: 575px) {
+.accordion-content ol {
+  padding-left: 0;
+ }
+}
 .accordion-content ol li{
   list-style: upper-roman;
 }
