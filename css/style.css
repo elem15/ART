@@ -394,22 +394,26 @@ hr {
 .socials {
   display: flex;
   justify-content: center;  
-  margin-left: auto; }
-
+  margin-left: auto; 
+}
 .socials-wrapper {
   display: flex;
   padding: 0;
   margin: 0;
   list-style: none;
-  align-items: center; }
+  align-items: center; 
+}
   .socials-wrapper:first-child {
     margin-right: 5px;
   }
   .socials-wrapper__item + .socials-wrapper__item {
-    margin-left: 2.5rem; }
-  .socials-wrapper__item-link {
-    transition: .3s;
+    margin-left: 2.5rem;
+    
   }
+  .socials-wrapper__item-link {
+    transition: .3s;     
+  }
+
   .socials-wrapper__item-link:hover{
     text-shadow: 0 0 1rem rgba(155, 5, 255, 0.6); 
   }
