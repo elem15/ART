@@ -171,6 +171,12 @@ color: teal;
   }
 }
 
+@media (max-width: 575px) {
+.accordion-title h3 span {
+  padding-left: 5px;
+}
+}
+
 .picture {
  
   margin-top: 1em;
